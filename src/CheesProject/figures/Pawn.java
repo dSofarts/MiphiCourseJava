@@ -1,7 +1,6 @@
 package CheesProject.figures;
 
 import CheesProject.ChessBoard;
-import CheesProject.Main;
 
 public class Pawn extends ChessPiece {
 

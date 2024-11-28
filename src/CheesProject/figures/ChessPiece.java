@@ -4,8 +4,7 @@ import CheesProject.ChessBoard;
 
 public abstract class ChessPiece {
 
-  private String color;
-  private boolean check = true;
+  private final String color;
   private boolean isChessPieceWalk = false;
 
   public ChessPiece(String color) {
